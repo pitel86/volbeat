@@ -1,0 +1,19 @@
+@mixin flexElement($direction, $justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: wrap;
+  flex-direction: $direction;
+}
+
+
+@mixin titleElement($bgcolor, $color, $size){
+    background-color: $bgcolor;
+    color: $color;
+    font-size: $size;
+    font-weight: bold;
+    max-width: 80%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}

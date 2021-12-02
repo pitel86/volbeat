@@ -1,0 +1,15 @@
+.escuchanos {
+  background-color: $greyBg;
+  .spotify {
+    padding: 20px 0 0;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    height: 440px;
+    text-align: center;
+
+    iframe {
+      margin: 0 auto;
+    }
+  }
+}

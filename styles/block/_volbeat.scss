@@ -1,0 +1,29 @@
+.volbeat {
+  padding: 20px 0;
+  @include flexElement(column, flex-start, center);
+  align-content: center;
+  background-color: $lightGreyBg;
+  h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: $darkGrey;
+    font-weight: bold;
+  }
+  img {
+    width: 80%;
+    border-radius: 30px;
+    margin: 10px auto;
+    @include desktop {
+      width: 40%;
+    }
+
+    @include tablet {
+      width: 40%;
+    }
+  }
+  p {
+    font-size: 20px;
+    margin: 3px 0;
+    color: $darkGrey;
+  }
+}
