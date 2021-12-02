@@ -4,13 +4,14 @@
     @include flexElement(row, space-around, flex-start);
 
     &-item {
-      @include flexElement(column, center, center);
+      @include flexElement(column, flex-end, center);
       width: 200px;
       height: 200px;
       margin: 20px;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
+      padding-bottom: 20px;
 
       @include desktop {
         width: 300px;
