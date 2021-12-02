@@ -606,35 +606,35 @@ header .navbar-menu-item a:hover {
 }
 
 .discografia .disc-item-1 {
-  background-image: url(../../assets/disc1.jpg);
+  background-image: url("../assets/disc1.jpg");
 }
 
 .discografia .disc-item-2 {
-  background-image: url(../../assets/disc2.jpg);
+  background-image: url("../assets/disc2.jpg");
 }
 
 .discografia .disc-item-3 {
-  background-image: url(../../assets/disc3.jpg);
+  background-image: url("../assets/disc3.jpg");
 }
 
 .discografia .disc-item-4 {
-  background-image: url(../../assets/disc4.jpg);
+  background-image: url("../assets/disc4.jpg");
 }
 
 .discografia .disc-item-5 {
-  background-image: url(../../assets/disc5.jpg);
+  background-image: url("../assets/disc5.jpg");
 }
 
 .discografia .disc-item-6 {
-  background-image: url(../../assets/disc6.jpg);
+  background-image: url("../assets/disc6.jpg");
 }
 
 .discografia .disc-item-7 {
-  background-image: url(../../assets/disc7.jpg);
+  background-image: url("../assets/disc7.jpg");
 }
 
 .discografia .disc-item-8 {
-  background-image: url(../../assets/disc8.jpg);
+  background-image: url("../assets/disc8.jpg");
 }
 
 .discografia .disc-item .title {

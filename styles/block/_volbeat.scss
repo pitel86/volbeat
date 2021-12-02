@@ -13,11 +13,11 @@
     width: 80%;
     border-radius: 30px;
     margin: 10px auto;
-    @include desktop {
+    @include desktop{
       width: 40%;
     }
 
-    @include tablet {
+    @include tablet{
       width: 40%;
     }
   }
